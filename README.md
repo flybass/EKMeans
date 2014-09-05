@@ -7,4 +7,4 @@ There are a few notable additions.  Following the example of researchers at Carn
 
 Also, an experimental one-cluster test is added to the algorithm.  As the affinity matrix is the only input, we try to perturb the affinity matrix directly and look at the difference in fit-statistics between 1 cluster and the fit for k>2.  
 
-There is an experimental train routine (to try to find parameters for lambda and epsilon.  This is a greedy search though, and running train rather than some sort fo grid-search validation scheme is not recommended.  
+There is an experimental train routine (to try to find parameters for lambda and epsilon.  This is a greedy search though, and running train rather than some sort of grid-search validation scheme is not recommended.  
