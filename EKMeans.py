@@ -1,7 +1,6 @@
 import numpy as np
 from scipy.optimize import minimize
 from scipy.stats import beta
-from sklearn import metrics
 
 class EKMeans(object):
     #constructor - has user choice parameters
